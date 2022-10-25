@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container > h1 {
+    color: #ffe819e0;
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+.classification {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.personal-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.308);
+    width: 60vw;
+    border-radius: 0.3rem;
+    margin: 1rem 0;
+}
+
+.personal-data > h3 {
+    background-color: #ffe819a9;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.personal-data > h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+} 
+
+.personal-data > img {
+    height: 18rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 10px 10px 28px 4px rgba(0,0,0,0.87);
+    -moz-box-shadow: 10px 10px 28px 4px rgba(0,0,0,0.87);
+    box-shadow: 10px 10px 28px 4px rgba(0,0,0,0.87);
+} 
+
+.personal-data > h5 {
+    margin: 1rem 0;
+}
